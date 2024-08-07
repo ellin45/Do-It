@@ -1,6 +1,5 @@
 import Image from "next/image";
 import "./globals.css";
-import IconSVG from '../../public/img/img.svg'; 
 
 export default function Home() {
   return (
@@ -10,7 +9,6 @@ export default function Home() {
         <div className="font-nanumSquare text-slate-900 text-[32px]">
           한글이다아 이거 나눔체 맞냐
         </div>
-        <IconSVG width={200} height={200} /> 
       </div>
     </main>
   );

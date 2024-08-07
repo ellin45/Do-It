@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: #f9fafb;
+  font-family: "NanumSquare", "NanumSquareBold", "sans-serif";
+}
+
+@font-face {
+  font-family: "NanumSquare";
+  src: url("./fonts/NanumSquareR.woff2") format("woff2"),
+    url("./fonts/NanumSquareR.woff") format("woff");
+}
+@font-face {
+  font-family: "NanumSquareBold";
+  src: url("./fonts/NanumSquareB.woff2") format("woff2"),
+    url("./fonts/NanumSquareB.woff") format("woff");
+}
